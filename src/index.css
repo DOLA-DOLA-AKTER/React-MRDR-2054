@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1170px;
+    --breakpoint-xxl: 1400px;
+
+}
+@utility  container{
+    @apply w-full m-auto;
+}
+@utility padding{
+    @apply py-20 lg:py-25 md:py-22.5 px-5;
+}
