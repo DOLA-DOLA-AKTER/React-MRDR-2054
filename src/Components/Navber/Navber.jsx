@@ -16,6 +16,7 @@ const Navber = () => {
 
                         <li><NavLink to="/" className="hover:text-blue-600">Home</NavLink></li>
                         <li><NavLink to="/about" className="hover:text-blue-600">About</NavLink></li>
+                        <li><NavLink to="/hoc" className="hover:text-blue-600">HOC</NavLink></li>
                         {/* Dropdown  */}
                         <li className="relative">
                             <button
